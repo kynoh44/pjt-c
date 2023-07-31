@@ -6,6 +6,6 @@
 int main()
 {
 	printf("Hello, world!\n");
-	printf("This is a test3.\n");
+	printf("This is a test4, ubuntu remotre is deleted.\n");
 	return 0;
 }
