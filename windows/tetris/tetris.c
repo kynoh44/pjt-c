@@ -2,8 +2,10 @@
 // Debug program: F5 or Debug > Start Debugging menu
 
 #include <stdio.h>
+
 int main()
 {
-	printf("Hello, world!");
+	printf("Hello, world!\n");
+	printf("This is a test.\n");
 	return 0;
 }
