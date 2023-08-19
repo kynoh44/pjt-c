@@ -1,0 +1,73 @@
+There are just two last things I want to show you around printing up JavaScript variables inside of
+
+JS X.
+
+The first thing is just a little bit of clarification.
+
+I'm going to return my app component to being just a plain H one.
+
+And then let's say that we want to print up two JavaScript variables inside the single element right
+
+here.
+
+So I might have a name of Samantha.
+
+And an age of 23.
+
+And I want to print up both those variables inside the H one.
+
+There's no issue with that whatsoever.
+
+So I can put in a reference to a name right here.
+
+And then a space and then a reference to H.
+
+And I'll end up getting Samantha 23.
+
+I can also mix in plain text to this thing if I want to.
+
+So, for example, I could say, Hi, my name is.
+
+Then print out the name and my age is.
+
+And then print out the age.
+
+And we'll see that react is going to take all the appropriate variables and stick them into the overall
+
+string as appropriate.
+
+Now, last thing I want to point out here around printing variables inside of G6 and getting them to
+
+show up on the screen, is that beyond just, well, printing out variables, I think you might start
+
+to notice that we're ending up with a very specific pattern going on inside of our component.
+
+And here's what it is.
+
+In many of the different components that we're going to write out, they're always going to have the
+
+exact same layout.
+
+We're always going to have our function declaration at the top.
+
+We'll then have a little bit of code to calculate or otherwise generate the values that we want to show
+
+in our.
+
+So the top of our component always going to have a lot of stuff to say.
+
+What do we actually want to show inside of here
+
+And then we're going to make use of those different variables inside the J.
+
+We always return down at the bottom.
+
+So as you start to look at more and more components, you're going to start to see this pattern over
+
+and over again.
+
+I know it might sound like a simple thing, but I just wanted to get this picture in your head of doing
+
+computation and a lot of lookups and whatnot at the top, and then figuring out how to print that stuff
+
+down at the bottom.
