@@ -1,0 +1,44 @@
+We can use these curly braces to print out the value of a variable, but there's another use of the curly braces that we're going to see very often, and that is to write out an expression directly inside of our jar.
+
+Let me show you what I mean by that.
+
+If I wanted to print out the current time on the screen, I could maybe create a date object.
+
+By calling new date, I can then get the current time by running date dot to locale time string.
+
+Notice that this says locale right here.
+
+So there's an end in me.
+
+There's an E on the end of the word.
+
+So it's not just local, it's locale with the E right there.
+
+If I then print out time.
+
+I'll get the time of ten 4919, which is my current time.
+
+Now, if I use this approach, I end up having to write a lot of extra code in my component.
+
+If I wanted to, I could condense this all down just a little bit by figuring out the current time entirely within these curly braces.
+
+So let me show you an alternative way of writing all this out, rather than declaring the two variables ahead of time inside those curly braces.
+
+I'm going to add in a new date object.
+
+I'll then call to locale time string directly on it.
+
+Now, when I save this, my code formatter might automatically reformat it.
+
+Looks like it's not.
+
+But if I do save it, my screen refreshes over here, and you'll notice I still get the exact same result.
+
+So we don't always have to declare a variable ahead of time and then reference that variable inside of our JSX.
+
+We do it very often just to keep our components a little bit clean.
+
+But in many other cases, we might decide that it's just a little bit easier or more clear to write out what we want to print directly inside the curly braces.
+
+It's completely up to you as a developer on which approach you're going to take and you're going to develop a better sense of which is more appropriate over time.
+File  : Total characters = 1862
