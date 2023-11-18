@@ -1,0 +1,8 @@
+*.png
+x64/
+.vs/
+*/x64/
+*/*.vcsproj
+*/*.filters
+*/*.user
+*.sln
